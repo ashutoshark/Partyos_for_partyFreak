@@ -1,59 +1,58 @@
 # PartyOS
 
-PartyOS is a full-stack event services marketplace that helps users discover, book, and manage party experiences in one place.
+<div align="center">
+  <h3>Plan. Book. Celebrate.</h3>
+  <p>PartyOS is a full-stack event services marketplace for booking party experiences, alcohol reservations, and vendor services with smart planning workflows.</p>
+  <p>
+    <img src="https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk" alt="Java 17" />
+    <img src="https://img.shields.io/badge/Spring%20Boot-3.3.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/MySQL-8-00758F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL 8" />
+    <img src="https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
+  </p>
+</div>
 
-The platform connects customers with vendors for alcohol reservations and event services, while giving admins operational visibility across users, listings, and orders.
+## Product Highlights
 
-## Why PartyOS
-
-- Unified booking flow for party planning and service reservations
-- Vendor onboarding and service management in one platform
-- Admin controls for approvals, oversight, and operations
-- Built for iterative growth with a modular Spring Boot architecture
+- Unified flow for party planning, service discovery, and checkout
+- Dedicated experiences for customer, vendor, and admin roles
+- Smart planning module for fast event estimation and recommendations
+- Modular Spring Boot architecture ready for iterative scaling
 
 ## Core Features
 
 ### Customer Experience
 - User signup, login, and profile management
-- Browse marketplace listings and service details
+- Marketplace browsing with service filters
 - Alcohol reservation workflow
-- Cart and checkout flow
-- Booking history and feedback submission
+- Cart and checkout journey
+- Booking history and feedback
 
 ### Vendor Console
-- Vendor authentication and onboarding
+- Vendor onboarding and authentication
 - Add and manage service listings
-- Manage inventory-related information for offerings
-- Track bookings relevant to vendor services
+- View service performance and customer activity
 
 ### Admin Operations
-- Admin authentication and dashboard access
-- Review and approve service-related entries
-- Monitor platform activity across users and vendors
+- Admin dashboard with platform overview
+- Vendor and service approval controls
+- Operational visibility for platform activity
 
 ## Tech Stack
 
 - Backend: Java 17, Spring Boot 3.3.5, Spring MVC, Spring Data JPA, Spring Security
 - Frontend: JSP, JSTL, Bootstrap 5, Vanilla JavaScript
 - Database: MySQL 8
-- Build Tool: Maven
-- Supporting Library: iTextPDF (PDF generation)
+- Build: Maven
+- Utility: iTextPDF
 
 ## Repository Structure
 
-This repository has a nested app directory:
-
-- `partyos/` - Main Spring Boot application
-- `README.md` - Top-level project overview
-
-Within the app:
-
-- `partyos/src/main/java/com/partyos/Controller` - MVC controllers
-- `partyos/src/main/java/com/partyos/Services` - Business logic
-- `partyos/src/main/java/com/partyos/Repositories` - Data access layer
-- `partyos/src/main/java/com/partyos/Entities` - Domain entities
-- `partyos/src/main/webapp/WEB-INF/views` - JSP views
-- `partyos/src/main/resources/application.properties` - Runtime configuration
+- `README.md` - Main project documentation
+- `assets/screenshots/` - Product UI screenshots used in README
+- `partyos/` - Spring Boot application root
+- `partyos/src/main/java/com/partyos/` - Controllers, services, repositories, entities
+- `partyos/src/main/webapp/WEB-INF/views/` - JSP views
+- `partyos/src/main/resources/application.properties` - App configuration
 
 ## Quick Start
 
@@ -63,22 +62,22 @@ Within the app:
 - Maven 3.9+
 - MySQL 8+
 
-### 1) Clone and Enter the App
+### 1) Clone and enter app directory
 
 ```bash
 git clone https://github.com/ashutoshark/Partyos_for_partyFreak.git
 cd Partyos_for_partyFreak/partyos
 ```
 
-### 2) Create Database
+### 2) Create database
 
 ```sql
 CREATE DATABASE partyos;
 ```
 
-### 3) Configure Application
+### 3) Configure environment
 
-Update `src/main/resources/application.properties` with your local MySQL credentials:
+Update `src/main/resources/application.properties`:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/partyos
@@ -86,88 +85,58 @@ spring.datasource.username=<your_mysql_username>
 spring.datasource.password=<your_mysql_password>
 ```
 
-### 4) Run the Application
+### 4) Run
 
 ```bash
 mvn clean spring-boot:run
 ```
 
-The app runs on:
-
-- `http://localhost:8081`
-
-## Selected Endpoints
-
-- `GET /` - Home page
-- `GET /login` - Login view
-- `GET /register` - Registration view
-- `GET /alcohol/reserve` - Alcohol reservation page
-- `GET /cart` - User cart page
-- `GET /admin/admin-dashboard` - Admin dashboard (auth required)
-
-## Configuration Notes
-
-- Default port: `8081`
-- JPA mode: `spring.jpa.hibernate.ddl-auto=update`
-- File upload limits:
-  - `spring.servlet.multipart.max-file-size=100MB`
-  - `spring.servlet.multipart.max-request-size=100MB`
+Application URL: `http://localhost:8081`
 
 ## Screenshots
 
-### Home Page
-![Home Page](assets/screenshots/home-page.png)
+<table>
+  <tr>
+    <td><b>Home Page</b><br/><img src="assets/screenshots/home-page.png" alt="Home Page"/></td>
+    <td><b>User Login Page</b><br/><img src="assets/screenshots/user-login-page.png" alt="User Login Page"/></td>
+  </tr>
+  <tr>
+    <td><b>Role Based User Registration Page</b><br/><img src="assets/screenshots/role-based-user-registration-page.png" alt="Role Based User Registration Page"/></td>
+    <td><b>Market Place</b><br/><img src="assets/screenshots/market-place.png" alt="Market Place"/></td>
+  </tr>
+  <tr>
+    <td><b>Alcohol Reservation Page</b><br/><img src="assets/screenshots/alcohol-reservation-page.png" alt="Alcohol Reservation Page"/></td>
+    <td><b>User Cart</b><br/><img src="assets/screenshots/user-cart.png" alt="User Cart"/></td>
+  </tr>
+  <tr>
+    <td><b>User Profile</b><br/><img src="assets/screenshots/user-profile.png" alt="User Profile"/></td>
+    <td><b>Smart Plaing</b><br/><img src="assets/screenshots/smart-plaing.png" alt="Smart Plaing"/></td>
+  </tr>
+  <tr>
+    <td><b>Smar Planning With Data</b><br/><img src="assets/screenshots/smar-planning-with-data.png" alt="Smar Planning With Data"/></td>
+    <td><b>Smart Planning Estimated Result</b><br/><img src="assets/screenshots/smart-planning-estimated-result.png" alt="Smart Planning Estimated Result"/></td>
+  </tr>
+  <tr>
+    <td><b>Admin Dashboard</b><br/><img src="assets/screenshots/admin-dashboard.png" alt="Admin Dashboard"/></td>
+    <td><b>Vendor Dashboard</b><br/><img src="assets/screenshots/vendor-dashboard.png" alt="Vendor Dashboard"/></td>
+  </tr>
+  <tr>
+    <td><b>Vendor Service Addition</b><br/><img src="assets/screenshots/vendor-service-addition.png" alt="Vendor Service Addition"/></td>
+    <td><b>Vendor Services</b><br/><img src="assets/screenshots/vendor-services.png" alt="Vendor Services"/></td>
+  </tr>
+</table>
 
-### User Login Page
-![User Login Page](assets/screenshots/user-login-page.png)
-
-### Role Based User Registration Page
-![Role Based User Registration Page](assets/screenshots/role-based-user-registration-page.png)
-
-### Market Place
-![Market Place](assets/screenshots/market-place.png)
-
-### Alcohol Reservation Page
-![Alcohol Reservation Page](assets/screenshots/alcohol-reservation-page.png)
-
-### User Cart
-![User Cart](assets/screenshots/user-cart.png)
-
-### User Profile
-![User Profile](assets/screenshots/user-profile.png)
-
-### Smart Plaing
-![Smart Plaing](assets/screenshots/smart-plaing.png)
-
-### Smar Planning With Data
-![Smar Planning With Data](assets/screenshots/smar-planning-with-data.png)
-
-### Smart Planning Estimated Result
-![Smart Planning Estimated Result](assets/screenshots/smart-planning-estimated-result.png)
-
-### Admin Dashboard
-![Admin Dashboard](assets/screenshots/admin-dashboard.png)
-
-### Vendor Dashboard
-![Vendor Dashboard](assets/screenshots/vendor-dashboard.png)
-
-### Vendor Service Addition
-![Vendor Service Addition](assets/screenshots/vendor-service-addition.png)
-
-### Vendor Services
-![Vendor Services](assets/screenshots/vendor-services.png)
 ## Roadmap
 
 - Payment gateway integration
 - Real-time notifications
 - Mobile-first client experience
-- Analytics and reporting enhancements
+- Advanced analytics and reporting
 
 ## Contributing
 
-Contributions are welcome. Please open an issue first for major changes, then submit a pull request with a clear description and test notes.
+Contributions are welcome. Open an issue first for major changes, then submit a PR with a clear summary and testing notes.
 
 ## License
 
-No license file is currently defined in this repository. Add a `LICENSE` file to make usage terms explicit.
-
+No license file is currently defined. Add a `LICENSE` file to define usage terms.
