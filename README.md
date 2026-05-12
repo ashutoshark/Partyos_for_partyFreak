@@ -113,6 +113,49 @@ The app runs on:
   - `spring.servlet.multipart.max-file-size=100MB`
   - `spring.servlet.multipart.max-request-size=100MB`
 
+## Screenshots
+
+### Home Page
+![Home Page](assets/screenshots/home-page.png)
+
+### User Login Page
+![User Login Page](assets/screenshots/user-login-page.png)
+
+### Role Based User Registration Page
+![Role Based User Registration Page](assets/screenshots/role-based-user-registration-page.png)
+
+### Market Place
+![Market Place](assets/screenshots/market-place.png)
+
+### Alcohol Reservation Page
+![Alcohol Reservation Page](assets/screenshots/alcohol-reservation-page.png)
+
+### User Cart
+![User Cart](assets/screenshots/user-cart.png)
+
+### User Profile
+![User Profile](assets/screenshots/user-profile.png)
+
+### Smart Plaing
+![Smart Plaing](assets/screenshots/smart-plaing.png)
+
+### Smar Planning With Data
+![Smar Planning With Data](assets/screenshots/smar-planning-with-data.png)
+
+### Smart Planning Estimated Result
+![Smart Planning Estimated Result](assets/screenshots/smart-planning-estimated-result.png)
+
+### Admin Dashboard
+![Admin Dashboard](assets/screenshots/admin-dashboard.png)
+
+### Vendor Dashboard
+![Vendor Dashboard](assets/screenshots/vendor-dashboard.png)
+
+### Vendor Service Addition
+![Vendor Service Addition](assets/screenshots/vendor-service-addition.png)
+
+### Vendor Services
+![Vendor Services](assets/screenshots/vendor-services.png)
 ## Roadmap
 
 - Payment gateway integration
@@ -127,3 +170,4 @@ Contributions are welcome. Please open an issue first for major changes, then su
 ## License
 
 No license file is currently defined in this repository. Add a `LICENSE` file to make usage terms explicit.
+
