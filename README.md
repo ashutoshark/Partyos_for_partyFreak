@@ -18,6 +18,39 @@
 - Smart planning module for fast event estimation and recommendations
 - Modular Spring Boot architecture ready for iterative scaling
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><b>Home Page</b><br/><img src="assets/screenshots/home-page.png" alt="Home Page"/></td>
+    <td><b>User Login Page</b><br/><img src="assets/screenshots/user-login-page.png" alt="User Login Page"/></td>
+  </tr>
+  <tr>
+    <td><b>Role Based User Registration Page</b><br/><img src="assets/screenshots/role-based-user-registration-page.png" alt="Role Based User Registration Page"/></td>
+    <td><b>Market Place</b><br/><img src="assets/screenshots/market-place.png" alt="Market Place"/></td>
+  </tr>
+  <tr>
+    <td><b>Alcohol Reservation Page</b><br/><img src="assets/screenshots/alcohol-reservation-page.png" alt="Alcohol Reservation Page"/></td>
+    <td><b>User Cart</b><br/><img src="assets/screenshots/user-cart.png" alt="User Cart"/></td>
+  </tr>
+  <tr>
+    <td><b>User Profile</b><br/><img src="assets/screenshots/user-profile.png" alt="User Profile"/></td>
+    <td><b>Smart Plaing</b><br/><img src="assets/screenshots/smart-plaing.png" alt="Smart Plaing"/></td>
+  </tr>
+  <tr>
+    <td><b>Smar Planning With Data</b><br/><img src="assets/screenshots/smar-planning-with-data.png" alt="Smar Planning With Data"/></td>
+    <td><b>Smart Planning Estimated Result</b><br/><img src="assets/screenshots/smart-planning-estimated-result.png" alt="Smart Planning Estimated Result"/></td>
+  </tr>
+  <tr>
+    <td><b>Admin Dashboard</b><br/><img src="assets/screenshots/admin-dashboard.png" alt="Admin Dashboard"/></td>
+    <td><b>Vendor Dashboard</b><br/><img src="assets/screenshots/vendor-dashboard.png" alt="Vendor Dashboard"/></td>
+  </tr>
+  <tr>
+    <td><b>Vendor Service Addition</b><br/><img src="assets/screenshots/vendor-service-addition.png" alt="Vendor Service Addition"/></td>
+    <td><b>Vendor Services</b><br/><img src="assets/screenshots/vendor-services.png" alt="Vendor Services"/></td>
+  </tr>
+</table>
+
 ## Core Features
 
 ### Customer Experience
@@ -92,39 +125,6 @@ mvn clean spring-boot:run
 ```
 
 Application URL: `http://localhost:8081`
-
-## Screenshots
-
-<table>
-  <tr>
-    <td><b>Home Page</b><br/><img src="assets/screenshots/home-page.png" alt="Home Page"/></td>
-    <td><b>User Login Page</b><br/><img src="assets/screenshots/user-login-page.png" alt="User Login Page"/></td>
-  </tr>
-  <tr>
-    <td><b>Role Based User Registration Page</b><br/><img src="assets/screenshots/role-based-user-registration-page.png" alt="Role Based User Registration Page"/></td>
-    <td><b>Market Place</b><br/><img src="assets/screenshots/market-place.png" alt="Market Place"/></td>
-  </tr>
-  <tr>
-    <td><b>Alcohol Reservation Page</b><br/><img src="assets/screenshots/alcohol-reservation-page.png" alt="Alcohol Reservation Page"/></td>
-    <td><b>User Cart</b><br/><img src="assets/screenshots/user-cart.png" alt="User Cart"/></td>
-  </tr>
-  <tr>
-    <td><b>User Profile</b><br/><img src="assets/screenshots/user-profile.png" alt="User Profile"/></td>
-    <td><b>Smart Plaing</b><br/><img src="assets/screenshots/smart-plaing.png" alt="Smart Plaing"/></td>
-  </tr>
-  <tr>
-    <td><b>Smar Planning With Data</b><br/><img src="assets/screenshots/smar-planning-with-data.png" alt="Smar Planning With Data"/></td>
-    <td><b>Smart Planning Estimated Result</b><br/><img src="assets/screenshots/smart-planning-estimated-result.png" alt="Smart Planning Estimated Result"/></td>
-  </tr>
-  <tr>
-    <td><b>Admin Dashboard</b><br/><img src="assets/screenshots/admin-dashboard.png" alt="Admin Dashboard"/></td>
-    <td><b>Vendor Dashboard</b><br/><img src="assets/screenshots/vendor-dashboard.png" alt="Vendor Dashboard"/></td>
-  </tr>
-  <tr>
-    <td><b>Vendor Service Addition</b><br/><img src="assets/screenshots/vendor-service-addition.png" alt="Vendor Service Addition"/></td>
-    <td><b>Vendor Services</b><br/><img src="assets/screenshots/vendor-services.png" alt="Vendor Services"/></td>
-  </tr>
-</table>
 
 ## Roadmap
 
